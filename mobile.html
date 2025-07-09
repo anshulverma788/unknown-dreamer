@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Responsive Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #d4f3ff, #ffe6fa);
+      overflow-x: hidden;
+    }
+
+    /* Header */
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      transform: rotateX(10deg);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    nav ul li {
+      padding: 10px;
+    }
+
+    /* Section common */
+    section {
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    /* About */
+    #about {
+      background: #fff0f5;
+      transform: rotateY(1deg);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Services */
+    #services {
+      background: #f0ffff;
+    }
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transform-style: preserve-3d;
+    }
+    .card:hover {
+      transform: rotateY(10deg) scale(1.03);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    /* Contact */
+    #contact {
+      background: #f3ffe0;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #999;
+      border-radius: 6px;
+    }
+    button {
+      padding: 10px;
+      border: none;
+      background: #333;
+      color: white;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      transform: rotateX(-5deg);
+    }
+
+    /* MEDIA QUERY for tablets and laptops */
+    @media (min-width: 768px) {
+      nav ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+      }
+
+      .card-container {
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      header {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🌐 My 3D Website</h1>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We create stunning 3D web experiences that are responsive and fast.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Design</h3>
+        <p>Creative and modern UI/UX design</p>
+      </div>
+      <div class="card">
+        <h3>Development</h3>
+        <p>Clean and efficient code</p>
+      </div>
+      <div class="card">
+        <h3>Support</h3>
+        <p>Always here to help you</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My 3D Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

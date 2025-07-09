@@ -1,0 +1,680 @@
+@media (max-width:748px) {
+
+  /* header start */
+  header {
+    height: 9vh;
+  }
+
+  .logo {
+    position: relative;
+    right: 19vw;
+    top: 15px;
+    height: 5vh;
+    width: 5vh;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .hero {
+    width: 30vh;
+    position: relative;
+    top: -23px;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .search-bar input {
+    width: 30vw;
+    font-size: 7px;
+  }
+
+  .search-bar button {
+    align-content: center;
+    font-size: 7px;
+  }
+
+  #icon {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    font-size: 30px;
+  }
+
+
+  /* .div-2-content{
+        display: none;
+    } */
+  .menu-bare {
+    position: absolute;
+    left: 50vw;
+    height: 20vh;
+    width: 30vw;
+    text-align: center;
+    line-height: 4vh;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(247, 242, 242);
+  }
+
+  /* header close */
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* Section one */
+
+  .Explore {
+    font-size: 1rem;
+    width: 30vw;
+    height: 5vh;
+    position: relative;
+    bottom: 5vh;
+  }
+
+  .content-heading {
+    width: 80vw;
+    position: relative;
+    right: 40px;
+    text-align: center;
+  }
+
+  .content-para {
+    width: 80vw;
+    font-size: 12px;
+    position: relative;
+    right: 10vw;
+
+  }
+
+  .content-para::after {
+    bottom: -16px;
+    left: 0%;
+    width: 80vw;
+  }
+
+  .imges-slider {
+    margin-top: -90px;
+    width: 90%;
+    height: 500px;
+  }
+
+  .img-slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* section one end */
+  /* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* section two start */
+  /* #card-container{
+  display: flex;
+  flex-direction: column;
+} */
+  .card {
+    width: 100%;
+  }
+
+  .img-2 {
+    width: 100%;
+  }
+
+  .read-more {
+    position: relative;
+    left: 30vw;
+    top: -15px;
+    font-size: 15px;
+  }
+
+  /* section two end  */
+  /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* Section three start */
+
+  .content-para-2 {
+    width: 90vw;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+  }
+
+  #about-para {
+    width: 50%;
+  }
+
+  #div-2-heading {
+    position: relative;
+    left: 35vw;
+  }
+
+  /* Section three end */
+  /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* Section four Start */
+  .img-3 {
+    height: 60vh;
+    width: 85vw;
+  }
+
+  .div-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-2-content {
+    width: 90%;
+  }
+
+  .about-para {
+    width: 100%;
+    position: relative;
+    left: 20px;
+  }
+
+  .about-heading {
+    font-size: 25px;
+    position: relative;
+    right: 20px;
+
+  }
+
+  .p-a {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    font-size: 25px;
+  }
+
+  .list {
+    position: relative;
+    top: 20px;
+  }
+
+  .li-2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+  /* Section four end */
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* Section five Start */
+  #contact-wrapper {
+    padding: 40px 15px;
+  }
+
+  .contact-box {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .contact-left,
+  .contact-right {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .contact-left img {
+    display: none;
+  }
+
+  .contact-right {
+    padding: 20px;
+  }
+
+  .contact-right h2 {
+    font-size: 24px;
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    font-size: 15px;
+  }
+
+  .contact-right button {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 749px) and (max-width: 950px) {
+
+  .logo {
+    position: relative;
+    left: -141px;
+  }
+
+  #icon {
+    display: block;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .hero {
+    width: 30vh;
+    position: relative;
+    top: -60px;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .menu-bare {
+    position: absolute;
+    left: 50vw;
+    height: 20vh;
+    width: 30vw;
+    text-align: center;
+    line-height: 4vh;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(247, 242, 242);
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .Explore {
+    font-size: 1rem;
+    width: 30vw;
+    height: 5vh;
+    position: relative;
+    bottom: 8vh;
+  }
+
+  .content-para {
+    width: 80vw;
+
+  }
+
+  .content-para::after {
+    width: 90%;
+    position: absolute;
+    left: 40px;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  #card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-2 {
+    width: 100%;
+
+  }
+
+  .read-more {
+    position: relative;
+    left: 30%;
+    top: -15px;
+    font-size: 15px;
+  }
+
+  .h-1 {
+    font-size: 26px;
+  }
+
+  .p-1 {
+    font-size: 20px;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .content-para-2 {
+    width: 90vw;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+  }
+
+  #about-para {
+    width: 40%;
+  }
+
+  #div-2-heading {
+    position: relative;
+    left: 35vw;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+  .img-3 {
+    height: 60vh;
+    width: 85vw;
+  }
+
+  .div-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-2-content {
+    width: 50%;
+  }
+
+  .about-para {
+    width: 150%;
+    font-size: 20px;
+    line-height: 2;
+    position: relative;
+    left: 50px;
+  }
+
+  .about-heading {
+    position: relative;
+    left: 150px;
+
+  }
+
+  .p-a {
+    position: relative;
+    left: 60px;
+    top: 40px;
+    font-size: 25px;
+  }
+
+  .list {
+    position: relative;
+    top: 20px;
+    left: 180px;
+  }
+
+  .li-2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1024px) {
+  .logo {
+    position: relative;
+    left: 1px;
+  }
+
+  .Explore {
+    font-size: 1rem;
+    width: 30vw;
+    height: 5vh;
+    position: relative;
+    bottom: 8vh;
+  }
+
+  .hero {
+    position: relative;
+    top: 200px;
+  }
+
+  /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  #card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-2 {
+    width: 100%;
+
+  }
+
+  .read-more {
+    position: relative;
+    left: 40%;
+    top: -15px;
+    font-size: 15px;
+  }
+
+  .h-1 {
+    font-size: 26px;
+  }
+
+  .p-1 {
+    font-size: 20px;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .content-para-2 {
+    width: 90vw;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+  }
+
+  #about-para {
+    width: 40%;
+  }
+
+  #div-2-heading {
+    position: relative;
+    left: 35vw;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .img-3 {
+    height: 40vh;
+    position: relative;
+    top: 100px;
+  }
+
+  .div-2 {
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .div-2-content {
+    width: 30%;
+    position: relative;
+    left: -40px;
+    /* display: none; */
+  }
+
+  .about-para {
+    width: 150%;
+    font-size: 20px;
+    line-height: 2;
+    position: relative;
+    left: 50px;
+  }
+
+  .about-heading {
+    position: relative;
+    left: 35px;
+    width: 150%;
+
+  }
+
+  .p-a {
+    position: relative;
+    left: 60px;
+    top: 40px;
+    font-size: 25px;
+  }
+
+  .list {
+    position: relative;
+    top: 20px;
+    left: 180px;
+  }
+
+  .li-2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1350px) {
+  .logo {
+    position: relative;
+    left: 1px;
+  }
+
+  .Explore {
+    font-size: 1rem;
+    width: 30vw;
+    height: 5vh;
+    position: relative;
+    bottom: 15vh;
+  }
+
+  .hero {
+    position: relative;
+    top: 200px;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .content-para-2 {
+    width: 90vw;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+  }
+
+  #about-para {
+    width: 40%;
+  }
+
+  #div-2-heading {
+    position: relative;
+    left: 35vw;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  #card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    height: 100%;
+    width: 100%;
+  }
+
+  .img-2 {
+    width: 100%;
+  }
+
+  .read-more {
+    position: relative;
+    left: 38%;
+    top: -15px;
+    font-size: 15px;
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .img-3 {
+    height: 40vh;
+    position: relative;
+    top: 100px;
+  }
+
+
+  .div-2-content {
+    width: 30%;
+    position: relative;
+    left: -40px;
+    /* display: none; */
+  }
+
+  .about-para {
+    width: 150%;
+    font-size: 20px;
+    line-height: 2;
+    position: relative;
+    left: 50px;
+  }
+
+  .about-heading {
+    position: relative;
+    left: 35px;
+    width: 150%;
+
+  }
+
+  .p-a {
+    position: relative;
+    left: 60px;
+    top: 40px;
+    font-size: 25px;
+  }
+
+  .list {
+    position: relative;
+    top: 20px;
+    left: 180px;
+  }
+
+  .li-2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1351px) and (max-width: 1950px) {
+  .about-para {
+    width: 40vw;
+  }
+
+  #about-para {
+    width: 50vw;
+  }
+
+  .content-para-2 {
+    width: 150%;
+    position: relative;
+    left: 10vw;
+  }
+
+  .Explore {
+    width: 30vw;
+    position: relative;
+    bottom: 30vh;
+    left: 25vw;
+  }
+
+  .p-1 {
+    font-size: 13px;
+  }
+}

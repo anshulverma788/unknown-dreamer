@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login & Signup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .scene {
+      width: 380px;
+      height: 500px;
+      perspective: 1200px;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      transform-style: preserve-3d;
+      transition: transform 1s ease-in-out;
+      position: relative;
+    }
+
+    .container.flipped {
+      transform: rotateY(180deg);
+    }
+
+    .form-box {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding: 40px 30px;
+      backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    input {
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      border-color: #667eea;
+      box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+    }
+
+    button {
+      padding: 12px;
+      margin-top: 15px;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .toggle-link {
+      margin-top: 20px;
+      text-align: center;
+      color: #555;
+    }
+
+    .toggle-link span {
+      color: #764ba2;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .signup-box {
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="scene">
+    <div class="container" id="card">
+      <div class="form-box login-box">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>Login</button>
+        <div class="toggle-link">Don't have an account? <span onclick="flipCard()">Sign Up</span></div>
+      </div>
+      <div class="form-box signup-box">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Sign Up</button>
+        <div class="toggle-link">Already have an account? <span onclick="flipCard()">Login</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const card = document.getElementById('card');
+    function flipCard() {
+      card.classList.toggle('flipped');
+    }
+  </script>
+</body>
+</html>
